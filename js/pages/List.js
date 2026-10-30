@@ -56,7 +56,7 @@ export default {
                         </li>
                     </ul>
                     <h2>Records</h2>
-                    <p v-if="selected + 1 <= 75"><strong>{{ level.percentToQualify }} tile</strong> to qualify</p>
+                    <p v-if="selected + 1 <= 75"><strong>{{ level.percentToQualify }} score</strong> to qualify</p>
                     <p v-else-if="selected +1 <= 150"><strong>Win</strong> to qualify</p>
                     <p v-else>This level does not accept new records.</p>
                     <table class="records">
