@@ -47,11 +47,11 @@ export default {
                             <p>{{ score(selected + 1, 100, level.percentToQualify) }}</p>
                         </li>
                         <li>
-                            <div class="type-title-sm">WR Tile</div>
+                            <div class="type-title-sm">WR tile</div>
                             <p>{{ level.id }}</p>
                         </li>
                         <li>
-                            <div class="type-title-sm">Password</div>
+                            <div class="type-title-sm">Save code</div>
                             <p>{{ level.password || 'Free to Copy' }}</p>
                         </li>
                     </ul>
