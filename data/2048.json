@@ -1,0 +1,42 @@
+{
+    "id": 4096,
+    "name": "2048 (Default)",
+    "author": "code",
+    "creators": ["N/A"],
+    "verifier": "Pointless",
+    "verification": "",
+    "password": "",
+    "percentToQualify": 9833,
+    "records": [
+        {
+            "user": "Pointless",
+            "link": "https://discord.com/channels/1299002312202915922/1299002682966544424/1413772500181192746",
+            "percent": 55834,
+            "hz": "https://discord.com/channels/1299002312202915922/1379882979744288901/1542703268155760721"
+        },
+        {
+            "user": "Hyper",
+            "link": "https://discord.com/channels/1299002312202915922/1299002682966544424/1369615805448196136",
+            "percent": 36144,
+            "hz": "N/A"
+        },
+        {
+            "user": "Michael",
+            "link": "https://discord.com/channels/1299002312202915922/1299002682966544424/1373104557730693173",
+            "percent": 18122,
+            "hz": "N/A"
+        },
+        {
+            "user": "thebigh",
+            "link": "https://discord.com/channels/1299002312202915922/1299002682966544424/1375310088767541288",
+            "percent": 17290,
+            "hz": "N/A"
+        },
+        {
+            "user": "MathCookie",
+            "link": "https://discord.com/channels/1299002312202915922/1299002682966544424/1532505219601137675",
+            "percent": 15394,
+            "hz": "N/A"
+        }
+    ]
+}
