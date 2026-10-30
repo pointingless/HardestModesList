@@ -75,7 +75,7 @@ export async function fetchLeaderboard() {
         });
 
         // Records
-        level.records.forEach((record) => {
+        level.records.forEach((record, index) => {
             const user = Object.keys(scoreMap).find(
                 (u) => u.toLowerCase() === record.user.toLowerCase(),
             ) || record.user;
@@ -85,7 +85,7 @@ export async function fetchLeaderboard() {
                 progressed: [],
             };
             const { completed, progressed } = scoreMap[user];
-            if (record.percent === 100) {
+            if (index < level.password) {
                 completed.push({
                     rank: rank + 1,
                     level: level.name,
