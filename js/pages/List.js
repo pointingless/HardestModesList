@@ -51,8 +51,8 @@ export default {
                             <p>{{ level.id }}</p>
                         </li>
                         <li>
-                            <div class="type-title-sm">Replay</div>
-                            <p>{{ level.password || 'N/A' }}</p>
+                            <div class="type-title-sm">Victors</div>
+                            <p>{{ level.password || '0' }}</p>
                         </li>
                     </ul>
                     <h2>Records</h2>
@@ -71,7 +71,7 @@ export default {
                                 <img v-if="record.mobile" :src="\`/assets/phone-landscape\${store.dark ? '-dark' : ''}.svg\`" alt="Mobile">
                             </td>
                             <td class="hz">
-                                <p>{{ record.hz }} (Replay)</p>
+                                <p><a :href={{ record.hz }}>(Replay)</a></p>
                             </td>
                         </tr>
                     </table>
