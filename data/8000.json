@@ -1,0 +1,18 @@
+{
+    "id": "8000",
+    "name": "8000",
+    "author": "code",
+    "creators": ["N/A"],
+    "verifier": "Pointless",
+    "verification": "",
+    "password": 1,
+    "percentToQualify": 20968,
+    "records": [
+        {
+            "user": "Pointless",
+            "link": "https://discord.com/channels/1299002312202915922/1379882979744288901/1537575673533825055",
+            "percent": 100316,
+            "hz": "https://discord.com/channels/1299002312202915922/1379882979744288901/1537575755884658699"
+        }
+    ]
+}
