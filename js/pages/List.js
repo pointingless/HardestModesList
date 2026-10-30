@@ -51,18 +51,18 @@ export default {
                             <p>{{ level.id }}</p>
                         </li>
                         <li>
-                            <div class="type-title-sm">Save code</div>
-                            <p>{{ level.password || 'Free to Copy' }}</p>
+                            <div class="type-title-sm">Replay</div>
+                            <p>{{ level.password || 'N/A' }}</p>
                         </li>
                     </ul>
                     <h2>Records</h2>
                     <p v-if="selected + 1 <= 75"><strong>{{ level.percentToQualify }} tile</strong> to qualify</p>
-                    <p v-else-if="selected +1 <= 150"><strong>to win</strong> to qualify</p>
+                    <p v-else-if="selected +1 <= 150"><strong>Win</strong> to qualify</p>
                     <p v-else>This level does not accept new records.</p>
                     <table class="records">
                         <tr v-for="record in level.records" class="record">
                             <td class="percent">
-                                <p>{{ record.percent }}%</p>
+                                <p>{{ record.percent }}</p>
                             </td>
                             <td class="user">
                                 <a :href="record.link" target="_blank" class="type-label-lg">{{ record.user }}</a>
@@ -71,7 +71,7 @@ export default {
                                 <img v-if="record.mobile" :src="\`/assets/phone-landscape\${store.dark ? '-dark' : ''}.svg\`" alt="Mobile">
                             </td>
                             <td class="hz">
-                                <p>{{ record.hz }}Hz</p>
+                                <p>{{ record.hz }} (Replay)</p>
                             </td>
                         </tr>
                     </table>
